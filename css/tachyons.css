@@ -3927,11 +3927,12 @@ img { display: block; max-width: 100%; }
  .fw7-m { font-weight: 700; }
  .fw8-m { font-weight: 800; }
  .fw9-m { font-weight: 900; }
- .h1-m { height: 1rem; }
- .h2-m { height: 2rem; }
- .h3-m { height: 4rem; }
- .h4-m { height: 8rem; }
- .h5-m { height: 16rem; }
+ .h0-m { height: var( --size-0, 0 ); }
+ .h1-m { height: var( --size-1, 1rem ); }
+ .h2-m { height: var( --size-2, 2rem ); }
+ .h3-m { height: var( --size-3, 3rem ); }
+ .h4-m { height: var( --size-4, 4rem ); }
+ .h5-m { height: var( --size-5, 8rem ); }
  .h6-m { height: var( --size-6, 16rem ); }
  .h7-m { height: var( --size-7, 32rem ); }
  .h8-m { height: var( --size-8, 64rem ); }
@@ -4441,11 +4442,12 @@ img { display: block; max-width: 100%; }
  .fw7-l { font-weight: 700; }
  .fw8-l { font-weight: 800; }
  .fw9-l { font-weight: 900; }
- .h1-l { height: 1rem; }
- .h2-l { height: 2rem; }
- .h3-l { height: 4rem; }
- .h4-l { height: 8rem; }
- .h5-l { height: 16rem; }
+ .h0-l { height: var( --size-0, 0 ); }
+ .h1-l { height: var( --size-1, 1rem ); }
+ .h2-l { height: var( --size-2, 2rem ); }
+ .h3-l { height: var( --size-3, 3rem ); }
+ .h4-l { height: var( --size-4, 4rem ); }
+ .h5-l { height: var( --size-5, 8rem ); }
  .h6-l { height: var( --size-6, 16rem ); }
  .h7-l { height: var( --size-7, 32rem ); }
  .h8-l { height: var( --size-8, 64rem ); }
